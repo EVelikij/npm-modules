@@ -1,0 +1,19 @@
+{
+  "name": "main-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main-app/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "start": "node ./dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "foo-module": "file:../foo-module"
+  },
+  "devDependencies": {
+    "typescript": "^3.2.1"
+  }
+}
